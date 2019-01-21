@@ -1,0 +1,358 @@
+
+angka 1
+
+ai.html:108 bcdghilmnqrsvwx
+ai.html:108 cdhimnrswx
+ai.html:108 chmrw
+ai.html:108 bcghlmqrvw
+ai.html:108 abcghlmqruvwxz
+ai.html:108 abchmruvwxz
+ai.html:108 bchmrvw
+ai.html:108 bchmrvwx
+ai.html:108 bcdhmrvwx
+ai.html:108 abcdehmruvwxz
+ai.html:108 abcdeghilmnqrsuvwxz
+ai.html:108 bcdhimnrsvwx
+ai.html:108 abcfghklmpqruvw
+ai.html:108 abfgklpquv
+abfgklpquv
+(index):285 bglqv
+2(index):171 bcghlmqrvw
+(index):171 chmrw
+(index):171 cdhimnrswx
+(index):285 dinsx
+(index):171 ejotz
+(index):285 ejotxz
+(index):285 dejotxz
+(index):285 dejostxz
+(index):285 dejnostxz
+(index):171 deijnostxz
+(index):285 cdinsx
+(index):285 cdhinsx
+(index):285 cdhimnsx
+(index):285 cdhimnrsx
+(index):171 cdhimnrswx
+(index):285 bchmrw
+(index):285 bcghmrw
+(index):285 bcghlmrw
+(index):285 bcghlmqrw
+(index):171 bcghlmqrvw
+(index):285 bcghlmqrv
+(index):285 bcghlmqv
+(index):285 bcghlqv
+(index):285 bcglqv
+2(index):285 bglqv
+(index):285 abglqv
+(index):285 abfglqv
+(index):285 abfgklqv
+(index):285 abfgklpqv
++++++++++++++++++++++++++
+// 2
+abcdejklmnopuvwxz
+abcdejklnopuvwxz
+ai.html:158 abdejklnopuvwxz
+ai.html:158 abdejklnopuvxz
+ai.html:158 abdjklnopvxz
+ai.html:158 abdejklnopvxz
+ai.html:121 abcdeijklmnopquvwxz
+2ai.html:121 abcdehijklmnopqruvwxz
+ai.html:121 abcdeijlmnpquvwxz
+ai.html:121 abcdejlmnpuvwxz
+ai.html:121 bcdeijklmnopquvwx
+ai.html:121 cdejklmnopuvw
+ai.html:121 cdeijklmnopquvwx
+ai.html:121 cdeijklmnopquvwxz
+ai.html:121 bcdeijklmnopquvwxz
+ai.html:121 bcdejklmnopuvwx
+ai.html:121 abcdefjlmnoptuvwxz
+2ai.html:121 abcdefjmnopquvwxz
+ai.html:121 bcdefjmnqtuvwx
+
+//3
+abcdeghijklmnoqrstuvwxz
+ai.html:128 abcdehijklmnorstuvwxz
+ai.html:128 abcdeijklmnostuvwxz
+ai.html:124 3  
+ai.html:125 abcdejklmnotuvwxz
+2ai.html:128 bcdejlmnotvwxz
+ai.html:128 bcdejmnotvwxz
+ai.html:128 abcdejmnotuvwxz
+ai.html:128 abcdeijlmnostuvwxz
+ai.html:128 abcdehijlmnorstuvwxz
+ai.html:128 abcdeijmnostuvwxz
+ai.html:128 abcdefgjmnopqtuvwxz
+ai.html:128 abcdefgjmnpqtuvwxz
+abcdejnotuvwxz
+ai.html:130 abcdefjnoptuvwxz
+bcdeijklmnotvwxz
+bcdeijklmnostuvwxz
+bcdeijklmnostvwxz
+abcdejklmnotuvwxz
+(index):262 abcdejklmnotuvwx
+(index):194 abcdjklmnotuvwx
+(index):194 abcdjlmnotuvwx
+(index):262 abcdejklmnotuvwx
+(index):194 abcdjklmnotuvwx
+(index):194 abcdjlmnotuvwx
+(index):194 bcdjlmnotuvwx
+(index):194 bcdjlmnotvwx
+(index):262 bcdjlmntvwx
+(index):262 bcdjlmntuvwx
+(index):262 abcdjlmntuvwx
+(index):262 abcdjklmntuvwx
+(index):262 abcdjklmnstuvwx
+(index):262 abcdijklmnstuvwx
+(index):262 bcdijklmnstuvwx
+(index):262 bcdijklmnstvwx
+(index):262 bcdijlmnstvwx
+
+// 4
+cdeghijklnopqrstxz
+cdeghjklnopqrstxz
+cdeghjklopqrstxz
+cdeghjkopqrstxz
+cdegjkopqrstxz
+cdegjkopqrstz
+cdegjknopqrstz
+cdegijknopqrstz
+cdeghijknopqrstz
+cdeghijklnopqrstz
+cdefgijknopqrstxz
+cdefgijknopqrstwxz
+cdegijknopqrstwxz
+degijknopqrstwxz
+degijknopqrstxz
+deghijknopqrstxz
+
+//5
+abcdefghklmnorstuvwxz
+ai.html:155 abcdefgklmnorstuvwxz
+ai.html:155 abcdefgklmnostuvwxz
+ai.html:155 abcdefklmnostuvwxz
+ai.html:155 abcdefklmnotuvwxz
+ai.html:155 bcdefklmnotuvwx
+ai.html:155 abcdefklmnotuvwx
+ai.html:155 bcdefklmnotuvwxz
+ai.html:155 bcdefklmnostuvwx
+ai.html:155 bcdefgklmnostuvwx
+ai.html:155 bcdefglmnostuvwx
+ai.html:155 abcdefglmnostuvwx
+ai.html:155 abcdefglmnostuvwxz
+ai.html:155 abcdeflmnostuvwxz
+ai.html:155 abcdeflmnotuvwxz
+ai.html:155 abcdflmnotuvwxz
+ai.html:155 abcfklmnotuvwxz
+ai.html:155 abcfklmnotvwxz
+ai.html:155 abcfklmntvwxz
+ai.html:155 abcflmntvwxz
+ai.html:155 abcdflmntvwxz
+ai.html:155 abcdeflmntvwxz
+ai.html:155 abcdeflmntuvwxz
+ai.html:155 abcdefglmntuvwxz
+ai.html:155 abcdefglmnstuvwxz
+
+//6
+bcdefklmnoptvwx
+abcdefgklmnopqstuvwxz
+ai.html:159 abcdefgklmnopqtuvwxz
+ai.html:159 abcdefklmnopqtuvwxz
+ai.html:159 abcdefgklmnoptuvwxz
+ai.html:159 abcdefklmnoptuvwxz
+ai.html:159 abcdfklmnoptuvwxz
+ai.html:159 abcdfklmnoptuvwx
+ai.html:159 abcdefklmnoptuvwx
+ai.html:159 bcdefklmnoptuvwx
+ai.html:159 bcdfklmnoptuvwx
+ai.html:159 bcdfklmnopqtuvwx
+ai.html:159 bcdfgklmnopqtuvwx
+ai.html:159 abcdfgklmnopqtuvwx
+2ai.html:159 abcdfgklmnopqtuvwxz
+ai.html:159 abcdefgklmnpqtuvwxz
+ai.html:159 bcdefgklmnpqtuvwxz
+ai.html:159 bcdefgklmnpqtvwxz
+ai.html:159 bcdefgklmnpqtvwx
+ai.html:159 bcdfgklmnpqtvwx
+ai.html:159 bcdfgklmnpqtvwxz
+ai.html:159 bcdfgklmnptvwx
+ai.html:159 bcdefgklmnptvwx
+ai.html:159 bcdefklmnptvwx
+ai.html:159 bcdefklmnoptvwx
+ai.html:159 bcdefklmnoptvwxz
+ai.html:159 bcdefklmnoptuvwxz
+ai.html:159 abdefklmnoptuvwxz
+ai.html:159 abdefklmnopqtuvwxz
+ai.html:159 abdefgklmnopqtuvwxz
+ai.html:159 abdefgklmnopqtuvwx
+ai.html:159 bdefgklmnopqtuvwx
+ai.html:159 bcdefgklmnopqtuvwx
+ai.html:159 bcdefgklmnopqtvwx
+
+//7
+abcdefghijnostxz
+ai.html:193 abcdeghijnostxz
+ai.html:193 abcdehijnostxz
+ai.html:193 abcdeijnostxz
+ai.html:193 abcdejnostxz
+ai.html:193 abcdeijostxz
+ai.html:193 abcdehijostxz
+ai.html:193 abcdeghijostxz
+ai.html:193 abcdefghijostxz
+ai.html:193 abcdefghijotxz
+ai.html:193 abcdeghijotxz
+ai.html:193 abcdehijotxz
+ai.html:193 abcdeijotxz
+ai.html:193 abcdejotxz
+ai.html:193 abcdejotz
+ai.html:193 abcdejnotz
+ai.html:193 abcdefjotz
+ai.html:193 abcdefgjotz
+ai.html:193 abcdefgjotxz
+ai.html:193 abcdefgjostxz
+ai.html:193 abcdefgjnostxz
+ai.html:193 abcdefgijnostxz
+ai.html:193 abcdeghijnostxz
+ai.html:193 abcdghijnostxz
+ai.html:193 bcdejotz
+ai.html:193 abcdefjklotz
+ai.html:193 abcdefjkotz
+ai.html:193 abcdefgjklotz
+ai.html:193 abcdefgijklotz
+ai.html:193 abcdefgjklotz
+ai.html:193 abcdefijmnqruv
+ai.html:193 abcdeijmnqruv
+ai.html:193 abcdeimnqruv
+ai.html:193 abcdeimqruv
+ai.html:193 abcdeimquv
+ai.html:193 abcdeimqu
+ai.html:193 abcdeimnqu
+ai.html:193 abcdeilmnqu
+ai.html:193 abcdefilmnqu
+ai.html:193 abcdefijlmnqu
+ai.html:193 abcdefijlmnqru
+ai.html:193 abcdefijlmnqruv
+ai.html:193 bcdefijlmnqruv
+ai.html:193 bcdeijmnqruv
+ai.html:193 bcdeijmnquv
+ai.html:193 bcdeijmnqu
+ai.html:193 bcdeimnqu
+ai.html:193 abcdeiklmnoqu
+ai.html:193 abcdeilmnoqu
+ai.html:193 abcdeilmnqu
+ai.html:193 abcdimqu
+ai.html:193 bcdimqu
+ai.html:193 bcdilmqu
+ai.html:193 bcdilmnqu
+
+// 8
+abcdefgijklmnopqstuvwxz
+ai.html:207 abcdefgjklmnopqstuvwxz
+ai.html:207 abcdefgjklmnopqtuvwxz
+ai.html:207 abcdefjklmnopqtuvwxz
+ai.html:207 abcdefjklmnoptuvwxz
+ai.html:207 bcdefgijklmnopqstuvwxz
+ai.html:207 bcdefgjklmnopqstuvwxz
+ai.html:207 bcdefgjklmnopqtuvwxz
+ai.html:207 bcdefgjklmnoptuvwxz
+ai.html:207 bcdefjklmnoptuvwxz
+ai.html:207 bcdfjklmnoptuvwxz
+ai.html:207 bcdfjklmnoptvwxz
+ai.html:207 bcdfjklmnoptvwx
+ai.html:207 bcdfjklnoptvwx
+ai.html:207 bcdfjklmnopqtvwx
+ai.html:207 bcdfjklmnopqstvwx
+ai.html:207 bcdfijklmnopqstvwx
+ai.html:207 bcdfgijklmnopqstvwx
+ai.html:207 bcdfjkmnoptvwx
+ai.html:207 bcdfjklmoptvwx
+ai.html:207 bcdefjklmoptvwx
+ai.html:207 bcdefjklmoptvwxz
+ai.html:207 bcdefjklmoptuvwxz
+ai.html:207 abcdefjklmoptuvwxz
+ai.html:207 abcdefjkmnoptuvwxz
+ai.html:207 bcdefjkmnoptuvwxz
+ai.html:207 bcdfjkmnoptuvwxz
+ai.html:207 bcdfjkmnoptuvwx
+ai.html:207 bcdfjkmnoptvwx
+ai.html:207 bcdfjklmnoptvwx
+
+// 9
+abcdefjklmnostuvwxz
+abcdefijklmnostuvwxz
+abcdefgijklmnostuvwxz
+abcdefijklmnostvwxz
+abcdefjklmnostvwxz
+abcdefjklmnotvwxz
+bcdefjklmnotuvwxz
+bcdefjklmnostuvwxz
+bcdefijklmnostuvwxz
+bcdfijklmnostuvwxz
+bcdfjklmnostuvwxz
+bcdfjklmnotuvwxz
+bcdfjklmnotuvwx
+bcdfjklmnostuvwx
+bcdfijklmnostuvwx
+abcdefijklmnostuvwx
+abcdefijklmnostuvwx
+abcdefijklmnostuvwxz
+bcdfijlmnostuvwx
+bcdfijlmnotuvwx
+bcdfjlmnotuvwx
+bcdfjlmnostuvwx
+
+//0
+abcdefjkoptuvwxz
+ai.html:237 abcdefgjkoptuvwxz
+ai.html:237 abcdefghjkoptuvwxz
+ai.html:237 abcdefghijkoptuvwxz
+ai.html:237 abcdefghijknoptuvwxz
+ai.html:237 abcdefghijknopstuvwxz
+ai.html:237 abcdefghijknoprstuvwxz
+ai.html:237 abcdefghijknopqrstuvwxz
+ai.html:237 abcdefghijklnopqrstuvwxz
+ai.html:237 abcdfghijklnopqrstuvwxz
+ai.html:237 bcdfghijklnopqrstuvwxz
+ai.html:237 bcdfghijklnopqrstuvwx
+ai.html:237 bcdfghijklnopqrstvwx
+ai.html:237 bcdfghijklnoprstvwx
+ai.html:237 bcdfghijklnopstvwx
+ai.html:237 bcdfghijklnoptvwx
+ai.html:237 bcdfghijkloptvwx
+ai.html:237 bcdfghjkloptvwx
+ai.html:237 bcdfgjkloptvwx
+ai.html:237 bcdfjkloptvwx
+ai.html:237 bcdfjkoptvwx
+ai.html:237 abcdfjkoptvwx
+ai.html:237 abcdfgjkoptvwx
+ai.html:237 abcdfgjkopstvwx
+ai.html:237 abcdfgijkopstvwx
+ai.html:237 abcdfgijknopstvwx
+ai.html:237 abcdfgijknopqstvwx
+ai.html:237 abcdfgijklnopqstvwx
+ai.html:237 abcdfghijklnopqstvwx
+ai.html:237 abcdfghijklnopqrstvwx
+ai.html:237 abcdfghijklnopqrstuvwx
+ai.html:237 abcdfghijklnoprstuvwx
+ai.html:237 abcdfghijklnopstuvwx
+ai.html:237 abcdfghijklnoptuvwx
+ai.html:237 abcdfghijkloptuvwx
+ai.html:237 abcdfghijkoptuvwx
+ai.html:237 abcdfhijkoptuvwx
+ai.html:237 abcdfijkoptuvwx
+ai.html:237 abcdfjkoptuvwx
+ai.html:237 abcdefjkoptuvwx
+ai.html:237 abcdefjkopstuvwx
+ai.html:237 abcdefjkoprstuvwx
+ai.html:237 abcdefjkopqrstuvwx
+ai.html:237 abcdefjklopqrstuvwx
+ai.html:237 abcdefgjklopqrstuvwx
+ai.html:237 abcdefghjklopqrstuvwx
+ai.html:237 abcdefghijklopqrstuvwx
+ai.html:237 abcdefghijklnopqrstuvwx
+ai.html:237 ghilnqrs
+ai.html:237 fghilnqrs
+ai.html:237 fghijlnqrs
+ai.html:237 fghijlnoqrs
+ai.html:237 fghijklnoqrs
+ai.html:237 fghijklnopqrs
+ai.html:237 fghijklnopqrst
+ai.html:237 fghijklnopqrstvwx

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+            href="font.css"
+            rel="stylesheet">
+        <link
+            href="vuetify.min.css"
+            rel="stylesheet">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    </head>
+    <body>
+        <section id="app">
+            <v-app>
+                <v-content>
+                    <v-container>
+                        <v-layout row="row">
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="a"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="b"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="c"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="d"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="e"></v-switch>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout row="row">
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="f"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="g"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="h"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="i"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="j"></v-switch>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout row="row">
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="k"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="l"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="m"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="n"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="o"></v-switch>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout row="row">
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="p"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="q"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="r"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="s"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="t"></v-switch>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout row="row">
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="u"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="v"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="w"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="x"></v-switch>
+                            </v-flex>
+                            <v-flex xs1 >
+                                <v-switch v-model="hasilAwal" color="red" value="z"></v-switch>
+                            </v-flex>
+                        </v-layout>
+
+                        <v-btn color="warning" @click="hasil">Ambil Data</v-btn>
+                        <v-btn color="success" @click="join1">Hasil</v-btn>
+                        <span>
+                            <h1>{{hasilAwal}}</h1>
+                        </span>
+                    </v-layout>
+                </v-container>
+            </v-content>
+        </v-app>
+
+    </section>
+    <script src="vue.js"></script>
+    <script src="vuetify.js"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                hasilAwal: [],
+                akhir: [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+
+            },
+            computed: {
+                join: function () {
+                    let obj = app
+                        .hasilAwal
+                        $
+                        .each(obj, function (key, value) {
+                            console.log(key + ':' + value[key]);
+
+                        })
+                }
+            },
+            methods: {
+                hasil: function () {
+                    console.log(this.hasilAwal);
+                    // this.hasilAwal.join('') let abc = this.hasilAwal Object.keys(abc).forEach(key
+                    // => { this.akhir = abc[key] console.log(this.akhir) });
+                    // console.log(this.akhir);  this.user.join('')
+                },
+
+                join1: function () {
+                    var a = this
+                        .hasilAwal
+                        a
+                        .sort()
+                    b = a.join('');
+
+                    //Mulai Ruwet nggolek kemunkinan angka 1
+                    if ((b == 'bcdghilmnqrsvwx') || (b == 'cdhimnrswx') || (b == 'chmrw') || (b == 'bcghlmqrvw') 
+                        || (b == 'abcghlmqruvwxz') || (b == 'abchmruvwxz') || (b == 'bchmrvw') || (b == 'bchmrvwx')
+                        || (b == 'bcdhmrvwx') || (b == 'abcdehmruvwxz') || (b == 'abcdeghilmnqrsuvwxz') || (b == 'bcdhimnrsvwx') 
+                        || (b == 'abcfghklmpqruvw') || (b == 'abfgklpquv') || (b == 'afkpu') || (b == 'cdehijmnorstwxz') 
+                        || (b == 'bglqv') || (b == 'abfgklpquv') || (b == 'dinsx') || (b == 'ejotxz') 
+                        || (b == 'dejotxz') || (b == 'dejostxz') || (b == 'dejnostxz') || (b == 'cdinsx') 
+                        || (b == 'cdhinsx') || (b == 'cdhimnsx') || (b == 'cdhimnrsx') || (b == 'bchmrw')
+                        || (b == 'bcghmrw') || (b == 'bcghlmrw') || (b == 'bcghlmqrw') || (b == 'bcghlmqrv') 
+                        || (b == 'bcghlmqv') || (b == 'bcghlqv') || (b == 'bcglqv') || (b == 'abglqv') 
+                        || (b == 'abfglqv') || (b == 'abfgklqv') || (b == 'abfgklpqv') || (b == 'deijnostxz')
+                        || (b == 'ejotz') || (b == 'dejotz') || (b == 'bcghlmqrvw')) {
+
+                        console.log(b);
+                        Swal.fire('1', 'Hasil Menunjukkan Kemiripin Dengan Angka 1!', 'success')
+                        //nggolek kemunkinan angka 2
+                    } else if ((b == 'abcdejklmnopuvwxz') || (b == 'abcdeijklmnopquvwxz') || (b == 'abcdehijklmnopqruvwxz') || (b == 'abcdeijlmnpquvwxz') 
+                            || (b == 'abcdejlmnpuvwxz') || (b == 'bcdeijklmnopquvwx') || (b == 'cdejklmnopuvw') || (b == 'cdeijklmnopquvwx') 
+                            || (b == 'cdeijklmnopquvwxz') || (b == 'bcdeijklmnopquvwxz') || (b == 'bcdejklmnopuvwx') || (b == 'abcdefjmnopquvwxz') 
+                            || (b == 'abdejklnopuvwxz') || (b == 'abdejklnopuvxz') || (b == 'abdjklnopvxz') || (b == 'bcdejklmnopuvwx') 
+                            || (b == 'abcdejklnopuvwxz') || (b == 'abdejklnopvxz')) {
+
+                        // alert('Hasil Menunjukkan Angka 2 ')
+                        console.log(b);
+                        Swal.fire('2', 'Hasil Menunjukkan Kemiripin Dengan Angka 2 !', 'success')
+                        // **************************************  33333333333
+                        // 88***************************************************** nggolek kemunkinan
+                        // angka 3
+                    } else if ((b == 'abcdejklmnotuvwxz') || (b == 'abcdeghijklmnoqrstuvwxz') || (b == 'abcdehijklmnorstuvwxz') 
+                            || (b == 'abcdeijklmnostuvwxz') || (b == 'bcdejlmnotvwxz') || (b == 'bcdejmnotvwxz') || (b == 'bcdejmnotuvwxz') 
+                            || (b == 'abcdeijlmnostuvwxz') || (b == 'abcdehijlmnorstuvwxz') || (b == 'abcdeijmnostuvwxz') || (b == 'abcdefgjmnopqtuvwxz') 
+                            || (b == 'abcdefgjmnpqtuvwxz') || (b == 'abcdejnotuvwxz') || (b == 'abcdefjnoptuvwxz') || (b == 'bcdeijklmnostvwxz')
+                            || (b == 'bcdejklmnotvwxz') || (b == 'bcdeijlmnotvwxz') || (b == 'bcdeijlmnostvwxz') || (b == 'bcdijlmnostvwxz')
+                            || (b == 'bcdijlmnostvwx') || (b == 'bcdijlmnotvwx') || (b == 'bcdjlmnotvwx') || (b == 'bcdjlmnotuvwx')
+                            || (b == 'abcdejklmnotuvwx') || (b == 'bcdjlmntvwx') || (b == 'bcdjlmntuvwx') || (b == 'abcdjlmntuvwx')
+                            || (b == 'abcdjklmntuvwx') || (b == 'abcdjklmnstuvwx') || (b == 'abcdijklmnstuvwx') || (b == 'bcdijklmnstuvwx')
+                            || (b == 'bcdeijklmnostuvwxz')  || (b == 'bcdijklmnstvwx')  || (b == 'bcdijlmnstvwx')) {
+
+                        console.log(b);
+                        Swal.fire('3', 'Hasil Menunjukkan Kemiripin Dengan Angka 3 !', 'success')
+                        // **************************************  4444444444
+                        // ******************************************************* nggolek kemungkinan
+                        // angka 4
+                    } else if ((b == 'cdeghijklnopqrstxz') || (b == 'cdeghjklnopqrstxz') || (b == 'cdeghjklopqrstxz') || (b == 'cdeghjkopqrstxz') 
+                            || (b == 'cdegjkopqrstxz') || (b == 'cdegjkopqrstz') || (b == 'cdegjknopqrstz') || (b == 'cdegijknopqrstz') 
+                            || (b == 'cdeghijknopqrstz') || (b == 'cdeghijklnopqrstz') || (b == 'cdefgijknopqrstxz') || (b == 'cdefgijknopqrstwxz') 
+                            || (b == 'cdegijknopqrstwxz') || (b == 'degijknopqrstwxz') || (b == 'degijknopqrstxz') || (b == 'deghijknopqrstxz') 
+                            || (b == 'deghijklnopqrstxz')) {
+
+                        console.log(b);
+                        Swal.fire('4', 'Hasil Menunjukkan Kemiripin Dengan Angka 4!', 'success')
+                        // **************************************  555555555
+                        // ******************************************************* nggolek kemungkinan
+                        // angka 5
+                    } else if ((b == 'abcdefghklmnorstuvwxz') || (b == 'abcdefgklmnorstuvwxz') || (b == 'abcdefgklmnostuvwxz') 
+                            || (b == 'abcdefklmnostuvwxz') || (b == 'abcdefklmnotuvwxz') || (b == 'bcdefklmnotuvwx') || (b == 'abcdefklmnotuvwx') 
+                            || (b == 'bcdefklmnotuvwxz') || (b == 'bcdefklmnostuvwx') || (b == 'bcdefgklmnostuvwx') || (b == 'bcdefglmnostuvwx') 
+                            || (b == 'abcdefglmnostuvwx') || (b == 'abcdefglmnostuvwxz') || (b == 'abcdeflmnostuvwxz') || (b == 'abcdeflmnotuvwxz') 
+                            || (b == 'abcdflmnotuvwxz') || (b == 'abcfklmnotuvwxz') || (b == 'abcfklmnotvwxz') || (b == 'abcdeflmntvwxz') 
+                            || (b == 'abcdeflmntuvwxz') || (b == 'abcdefglmntuvwxz') || (b == 'abcdefglmnstuvwxz') || (b == 'abcfklmntvwxz') 
+                            || (b == 'abcflmntvwxz') || (b == 'abcdflmntvwxz')) {
+
+                        console.log(b);
+                        Swal.fire('5', 'Hasil Menunjukkan Kemiripin Dengan Angka 5!', 'success')
+                        // **************************************  6666666666666
+                        // ******************************************************* nggolek kemungkinan
+                        // angka 6
+                    } else if ((b == 'abcdefgklmnopqstuvwxz') || (b == 'abcdefgklmnopqtuvwxz') || (b == 'abcdefklmnopqtuvwxz') 
+                            || (b == 'abcdefgklmnoptuvwxz') || (b == 'abcdefklmnoptuvwxz') || (b == 'abcdfklmnoptuvwxz') || (b == 'abcdfklmnoptuvwx') 
+                            || (b == 'abcdefklmnoptuvwx') || (b == 'bcdefklmnoptuvwx') || (b == 'bcdfklmnoptuvwx') || (b == 'bcdfklmnopqtuvwx')
+                            || (b == 'bcdfgklmnopqtuvwx') || (b == 'abcdfgklmnopqtuvwx') || (b == 'abcdfgklmnopqtuvwxz') || (b == 'abcdefgklmnpqtuvwxz') 
+                            || (b == 'bcdefgklmnpqtuvwxz') || (b == 'bcdefgklmnpqtvwxz') || (b == 'bcdefgklmnpqtvwx') || (b == 'bcdfgklmnpqtvwx') 
+                            || (b == 'bcdfgklmnpqtvwxz') || (b == 'bcdfgklmnptvwx') || (b == 'bcdefgklmnptvwx') || (b == 'bcdefklmnptvwx') 
+                            || (b == 'bcdefklmnoptvwx') || (b == 'bcdefklmnoptvwxz') || (b == 'bcdefklmnoptuvwxz') || (b == 'abdefklmnoptuvwxz') 
+                            || (b == 'abdefklmnopqtuvwxz') || (b == 'abdefgklmnopqtuvwxz') || (b == 'abdefgklmnopqtuvwx') || (b == 'bdefgklmnopqtuvwx') 
+                            || (b == 'bcdefgklmnopqtuvwx') || (b == 'bcdefgklmnopqtvwx')) {
+
+                        console.log(b);
+                        Swal.fire('6', 'Hasil Menunjukkan Kemiripin Dengan Angka 6!', 'success')
+                        // **************************************  7777777777777
+                        // ******************************************************* nggolek kemungkinan
+                        // angka 7
+                    } else if ((b == 'abcdefghijnostxz') || (b == 'abcdeghijnostxz') || (b == 'abcdehijnostxz') || (b == 'abcdeijnostxz') 
+                            || (b == 'abcdejnostxz') || (b == 'abcdeijostxz') || (b == 'abcdehijostxz') || (b == 'abcdeghijostxz') 
+                            || (b == 'abcdefghijostxz') || (b == 'abcdefghijotxz') || (b == 'abcdeghijotxz') || (b == 'abcdehijotxz') 
+                            || (b == 'abcdeijotxz') || (b == 'abcdejotxz') || (b == 'abcdejotz') || (b == 'abcdejnotz') || (b == 'abcdefjotz') 
+                            || (b == 'abcdefgjotz') || (b == 'abcdefgjotxz') || (b == 'abcdefgjostxz') || (b == 'abcdefgjnostxz')
+                            || (b == 'abcdefgijnostxz') || (b == 'abcdeghijnostxz') || (b == 'abcdghijnostxz') || (b == 'bcdejotz')
+                            || (b == 'abcdefjklotz') || (b == 'abcdefjkotz') || (b == 'abcdefgjklotz') || (b == 'abcdefgijklotz')
+                            || (b == 'abcdefgjklotz') || (b == 'abcdeimqruv') || (b == 'abcdeimquv') || (b == 'abcdeimqu') 
+                            || (b == 'abcdeimnqu') || (b == 'abcdeilmnqu') || (b == 'abcdefilmnqu') || (b == 'abcdefijlmnqu')
+                            || (b == 'abcdefijlmnqru') || (b == 'abcdefijlmnqruv') || (b == 'bcdefijlmnqruv') || (b == 'bcdeijmnqruv')
+                            || (b == 'bcdeijmnquv') || (b == 'bcdeijmnqu') || (b == 'bcdeimnq') || (b == 'abcdeiklmnoqu')
+                            || (b == 'abcdeilmnoqu') || (b == 'abcdeilmnqu') || (b == 'abcdimqu') || (b == 'bcdimqu')
+                            || (b == 'bcdilmqu') || (b == 'bcdilmnqu') || (b == 'abcdefijmnqruv') || (b == 'abcdeijmnqruv')
+                            || (b == 'abcdeimnqruv')) {
+
+                        console.log(b);
+                        Swal.fire('7', 'Hasil Menunjukkan Kemiripin Dengan Angka 7!', 'success')
+                        // **************************************  8888888888888
+                        // ******************************************************* nggolek kemungkinan
+                        // angka 8
+                    } else if ((b == 'abcdefgijklmnopqstuvwxz') || (b == 'abcdefgjklmnopqstuvwxz') || (b == 'abcdefgjklmnopqtuvwxz') 
+                            || (b == 'abcdefjklmnopqtuvwxz') || (b == 'abcdefjklmnoptuvwxz') || (b == 'bcdefgijklmnopqstuvwxz') 
+                            || (b == 'bcdefgjklmnopqstuvwxz') || (b == 'bcdefgjklmnopqtuvwxz') || (b == 'bcdefgjklmnoptuvwxz') 
+                            || (b == 'bcdefjklmnoptuvwxz') || (b == 'bcdfjklmnoptuvwxz') || (b == 'bcdfjklmnoptvwxz') || (b == 'bcdfjklmnoptvwx')
+                            || (b == 'bcdfjklnoptvwx') || (b == 'bcdfjklmnopqtvwx') || (b == 'bcdfjklmnopqstvwx') || (b == 'bcdefgklmnpqtvwxz')
+                            || (b == 'bcdefgklmnpqtvwx') || (b == 'bcdfijklmnopqstvwx') || (b == 'bcdfgijklmnopqstvwx') || (b == 'bcdfjkmnoptvwx')
+                            || (b == 'bcdfjklmoptvwx') || (b == 'bcdefjklmoptvwx') || (b == 'bcdefjklmoptvwxz') || (b == 'bcdefjklmoptuvwxz')
+                            || (b == 'abcdefjklmoptuvwxz') || (b == 'abcdefjkmnoptuvwxz') || (b == 'bcdefjkmnoptuvwxz') || (b == 'bcdfjkmnoptuvwxz')
+                            || (b == 'bcdfjkmnoptuvwx') || (b == 'bcdfjkmnoptvwx') || (b == 'bcdfjklmnoptvwx')) {
+
+                        console.log(b);
+                        Swal.fire('8', 'Hasil Menunjukkan Kemiripin Dengan Angka 8!', 'success')
+                        // **************************************  99999999999999 ******************************************************* 
+                        //nggolek kemungkinan angka 9
+                    } else if ((b == 'abcdefjkmotuvwxz') || (b == 'abcdefjklmotuvwxz') || (b == 'abcdefjklmnotuvwxz') 
+                            || (b == 'abcdefjklmnostuvwxz') || (b == 'abcdefijklmnostuvwxz') || (b == 'abcdefgijklmnostuvwxz') 
+                            || (b == 'abcdefijklmnostvwxz') || (b == 'abcdefjklmnostvwxz') || (b == 'abcdefjklmnotvwxz') 
+                            || (b == 'bcdefjklmnotuvwxz') || (b == 'bcdefjklmnostuvwxz') || (b == 'bcdefijklmnostuvwxz') 
+                            || (b == 'bcdfijklmnostuvwxz') || (b == 'bcdfjklmnostuvwxz') || (b == 'bcdfjklmnotuvwxz') 
+                            || (b == 'bcdfjklmnotuvwx') || (b == 'bcdfjklmnostuvwx') || (b == 'bcdfijklmnostuvwx') 
+                            || (b == 'abcdefijklmnostuvwx') || (b == 'abcdefijklmnostuvwx') || (b == 'abcdefijklmnostuvwxz') 
+                            || (b == 'bcdfijlmnostuvwx') || (b == 'bcdfijlmnotuvwx') || (b == 'bcdfjlmnotuvwx') || (b == 'bcdfjlmnostuvwx')) {
+
+                        console.log(b);
+                        Swal.fire('9', 'Hasil Menunjukkan Kemiripin Dengan Angka 9!', 'success')
+                        // **************************************  00000000000000
+                        // ******************************************************* nggolek kemungkinan
+                        // angka 0
+                    } else if ((b == 'abcdefjkoptuvwxz') || (b == 'abcdefgjkoptuvwxz') || (b == 'abcdefghjkoptuvwxz') 
+                            || (b == 'abcdefghijkoptuvwxz') || (b == 'abcdefghijknoptuvwxz') || (b == 'abcdefghijknopstuvwxz') 
+                            || (b == 'abcdefghijknoprstuvwxz') || (b == 'abcdefghijknopqrstuvwxz') || (b == 'abcdefghijklnopqrstuvwxz') 
+                            || (b == 'abcdfghijklnopqrstuvwxz') || (b == 'bcdfghijklnopqrstuvwxz') || (b == 'bcdfghijklnopqrstuvwx') 
+                            || (b == 'bcdfghijklnopqrstvwx') || (b == 'bcdfghijklnoprstvwx') || (b == 'bcdfghijklnopstvwx') 
+                            || (b == 'bcdfghijklnoptvwx') || (b == 'bcdfghijkloptvwx') || (b == 'bcdfghjkloptvwx') || (b == 'bcdfgjkloptvwx') 
+                            || (b == 'bcdfjkloptvwx') || (b == 'bcdfjkoptvwx') || (b == 'abcdfjkoptvwx') || (b == 'abcdfgjkoptvwx') 
+                            || (b == 'abcdfgjkopstvwx') || (b == 'abcdfgijknopstvwx') || (b == 'abcdfgijknopqstvwx') 
+                            || (b == 'abcdfgijklnopqstvwx') || (b == 'abcdfghijklnopqstvwx') || (b == 'abcdfghijklnopqrstvwx') 
+                            || (b == 'abcdfghijklnopqrstuvwx') || (b == 'abcdfghijklnoprstuvwx') || (b == 'abcdfghijklnopstuvwx') 
+                            || (b == 'abcdfghijklnoptuvwx') || (b == 'abcdfghijkoptuvwx') || (b == 'abcdfhijkoptuvwx') 
+                            || (b == 'abcdfijkoptuvwx') || (b == 'abcdfjkoptuvwx') || (b == 'abcdefjkoptuvwx') || (b == 'abcdefjkopstuvwx')
+                            || (b == 'abcdefjkoprstuvwx') || (b == 'abcdefjkopqrstuvwx') || (b == 'abcdefjklopqrstuvwx') 
+                            || (b == 'abcdefgjklopqrstuvwx') || (b == 'abcdefghjklopqrstuvwx') || (b == 'abcdefghijklopqrstuvwx') 
+                            || (b == 'abcdefghijklnopqrstuvwx') || (b == 'ghilnqrs') || (b == 'fghilnqrs') || (b == 'fghijlnqrs')
+                            || (b == 'fghijlnoqrs') || (b == 'fghijklnoqrs') || (b == 'fghijklnopqrs') || (b == 'fghijklnopqrst') 
+                            || (b == 'fghijklnopqrstvwx')) {
+
+                        console.log(b);
+                        Swal.fire('9', 'Hasil Menunjukkan Kemiripin Dengan Angka 9 !', 'success')
+                    } else if ((b.length <= 4) || (b == null)) {
+                        Swal.fire({
+                            type: 'error', title: 'GOBLOK', text: 'Seng Genah mas !',
+                            //  footer: '<a href>Why do I have this issue?</a>'
+                        })
+
+                    } else {
+                        console.log(b);
+                        Swal.fire({
+                            type: 'error',
+                            title: 'Waduh',
+                            text: 'Inputan Yang Anda Tidak AdaKemirinpan Dengan Angka atau Masukkan belum Belum T' +
+                                    'erekam!',
+                            //  footer: '<a href>Why do I have this issue?</a>'
+                        })
+                    }
+                },
+                angka: function () {
+                    console.log(this.a);
+                }
+            }
+
+        })
+    </script>
+</body>
+
+</html>
